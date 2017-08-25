@@ -28,6 +28,7 @@ gem 'rack-cors', :require => 'rack/cors'
 # Authentication
 gem 'devise_token_auth'
 gem 'omniauth'
+gem 'pry'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

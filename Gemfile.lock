@@ -223,6 +223,7 @@ DEPENDENCIES
   guard-rspec
   listen (>= 3.0.5, < 3.2)
   omniauth
+  pry
   puma (~> 3.7)
   rack-cors
   rails (~> 5.1.2)
