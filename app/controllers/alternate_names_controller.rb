@@ -1,0 +1,2 @@
+class AlternateNamesController < ApplicationController
+end

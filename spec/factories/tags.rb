@@ -1,7 +1,7 @@
 require 'faker'
 
 FactoryGirl.define do
-  factory :tags do |f|
+  factory :tag do |f|
     f.name {Faker::Color.color_name}
   end
 end
