@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  warmup: false
+  name: MyString
+  description: MyText
+
+two:
+  warmup: false
+  name: MyString
+  description: MyText
