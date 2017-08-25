@@ -40,6 +40,9 @@ group :test do
   gem 'shoulda-matchers'
   gem 'faker'
   gem 'database_cleaner'
+  #Guard::Rspec allows you to automaticall & intelligently launch specs when files are modified.
+  gem 'guard-rspec', require: false
+  gem 'capybara'
 end
 
 group :development do
