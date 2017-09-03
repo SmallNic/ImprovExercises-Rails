@@ -27,7 +27,8 @@ class ExercisesController < ApplicationController
   # DELETE /exercises/:id
   def destroy
     @exercise.destroy
-    head :no_content
+    json_response(@exercise)
+
   end
 
   private
