@@ -4,6 +4,6 @@ class Exercise < ApplicationRecord
 
   # validations
   validates_presence_of :name, :description
-  validates_inclusion_of :warmup, in: [true, false]
+  # validates_inclusion_of :warmup, in: [true, false]
   
 end

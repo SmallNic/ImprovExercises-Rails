@@ -9,7 +9,15 @@ class ExercisesController < ApplicationController
 
   # POST /exercises
   def create
-    @exercise = Exercise.create!(exercise_params)
+    begin
+      @exercise = Exercise.create!(exercise_params) #create with a bang throws immediate error?
+      tag_params.uniq.each do |tag_object|
+        tag = Tag.create(name:tag_object["value"])
+        @exercise.tags << tag
+      end
+    rescue ActiveRecord::RecordNotSaved => e
+      puts @exercise.errors.full_messages
+    end
     json_response(@exercise, :created)
   end
 
@@ -35,7 +43,15 @@ class ExercisesController < ApplicationController
 
   def exercise_params
     # whitelist params
-    params.permit(:name, :warmup, :description)
+    params.require(:exercise).permit(:id, :warmup, :name, :description)
+  end
+
+  def tag_params
+    begin
+      params.require(:tags)
+    rescue ActionController::ParameterMissing => e
+      return []
+    end
   end
 
   def set_exercise
