@@ -5,5 +5,11 @@ class Exercise < ApplicationRecord
   # validations
   validates_presence_of :name, :description
   # validates_inclusion_of :warmup, in: [true, false]
-  
+
+  def tag_names
+    @tag_names = self.tags.map do |tag|
+      tag.name
+    end
+  end
+
 end

@@ -23,7 +23,9 @@ class ExercisesController < ApplicationController
 
   # GET /exercises/:id
   def show
-    json_response(@exercise)
+    exercise_hash = JSON[@exercise.to_json] #turn model instance into hash
+    exercise_hash["tags"] = @exercise.tag_names #add tag_names array to hash
+    json_response(exercise_hash) #return hash as json
   end
 
   # PUT /exercises/:id
