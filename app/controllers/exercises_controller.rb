@@ -3,7 +3,13 @@ class ExercisesController < ApplicationController
 
   # GET /exercises
   def index
-    @exercises = Exercise.all
+    # @exercises = Exercise.all
+    @exercises = []
+    Exercise.all.each do |exercise|
+      exercise_hash = JSON[exercise.to_json] #turn model instance into hash
+      exercise_hash["tags"] = exercise.tag_names #add tag_names array to hash
+      @exercises << exercise_hash
+    end
     json_response(@exercises)
   end
 
