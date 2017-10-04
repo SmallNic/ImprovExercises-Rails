@@ -1,6 +1,10 @@
 class Exercise < ApplicationRecord
+
+  #relationships
   has_many :alternate_names, dependent: :destroy
   has_many :tags, dependent: :destroy
+  has_many :lesson_exercises
+  has_many :lessons, :through => :lesson_exercises
 
   # validations
   validates_presence_of :name, :description
