@@ -120,16 +120,16 @@ tag = Tag.create(name:"warmup", exercise_id:exercise32.id)
 exercise33 = Exercise.create(warmup:true, name:"What’s in the box?", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise33.id)
 
-exercise34 = Exercise.create(warmup:true, name:"Pass the Face", description:"")
+exercise34 = Exercise.create(warmup:true, name:"Pass the Face", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise34.id)
 
-exercise35 = Exercise.create(warmup:true, name:"Bodyguard and Frenemies", description:"")
+exercise35 = Exercise.create(warmup:true, name:"Bodyguard and Frenemies", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise35.id)
 
-exercise36 = Exercise.create(warmup:true, name:"Why Were You Late", description:"")
+exercise36 = Exercise.create(warmup:true, name:"Why Were You Late", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise36.id)
 
-exercise37 = Exercise.create(warmup:true, name:"What's on Your Busted Tee?", description:"")
+exercise37 = Exercise.create(warmup:true, name:"What's on Your Busted Tee?", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise37.id)
 #
 # exercise34 = Exercise.create(warmup:true, name:"", description:"")
