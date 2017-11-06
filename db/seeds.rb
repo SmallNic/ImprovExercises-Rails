@@ -24,100 +24,100 @@ tag = Tag.create(name:"", exercise_id:exercise.id)
 # * Here’s your coffee
 # * Circuits / Three stories
 
-exercise2 = Exercise.create(warmup:true, name:"Tree, Nut, Squirrel", description:"")
+exercise2 = Exercise.create(warmup:true, name:"Tree, Nut, Squirrel", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise2.id)
 
-exercise3 = Exercise.create(warmup:true, name:"Unison Clap", description:"")
+exercise3 = Exercise.create(warmup:true, name:"Unison Clap", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise3.id)
 
-exercise4 = Exercise.create(warmup:true, name:"Bad Rap", description:"")
+exercise4 = Exercise.create(warmup:true, name:"Bad Rap", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise4.id)
 
-exercise5 = Exercise.create(warmup:true, name:"Beastie Rap", description:"")
+exercise5 = Exercise.create(warmup:true, name:"Beastie Rap", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise5.id)
 
-exercise6 = Exercise.create(warmup:true, name:"Hey Fred Schneider", description:"")
+exercise6 = Exercise.create(warmup:true, name:"Hey Fred Schneider", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise6.id)
 
-exercise7 = Exercise.create(warmup:true, name:"Beat My Meat", description:"")
+exercise7 = Exercise.create(warmup:true, name:"Beat My Meat", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise7.id)
 
-exercise8 = Exercise.create(warmup:true, name:"Hot Spot", description:"")
+exercise8 = Exercise.create(warmup:true, name:"Hot Spot", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise8.id)
 
-exercise9 = Exercise.create(warmup:true, name:"Tree, Nut, Squirrel", description:"")
+exercise9 = Exercise.create(warmup:true, name:"Tree, Nut, Squirrel", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise9.id)
 
-exercise10 = Exercise.create(warmup:true, name:"Unison Clap", description:"")
+exercise10 = Exercise.create(warmup:true, name:"Unison Clap", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise10.id)
 
-exercise11 = Exercise.create(warmup:true, name:"Bad Rap", description:"")
+exercise11 = Exercise.create(warmup:true, name:"Bad Rap", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise11.id)
 
-exercise12 = Exercise.create(warmup:true, name:"Bunny Bunny", description:"")
+exercise12 = Exercise.create(warmup:true, name:"Bunny Bunny", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise12.id)
 
-exercise13 = Exercise.create(warmup:true, name:"Zip Zap Zop", description:"")
+exercise13 = Exercise.create(warmup:true, name:"Zip Zap Zop", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise13.id)
 
-exercise14 = Exercise.create(warmup:true, name:"Dukes of Hazzard", description:"")
+exercise14 = Exercise.create(warmup:true, name:"Dukes of Hazzard", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise14.id)
 
-exercise15 = Exercise.create(warmup:true, name:"Whoosh/Bang/Ramp/Interstate", description:"")
+exercise15 = Exercise.create(warmup:true, name:"Whoosh/Bang/Ramp/Interstate", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise15.id)
 
-exercise16 = Exercise.create(warmup:true, name:"Four Corners", description:"")
+exercise16 = Exercise.create(warmup:true, name:"Four Corners", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise16.id)
 
-exercise17 = Exercise.create(warmup:true, name:"Mr. Whiskers", description:"")
+exercise17 = Exercise.create(warmup:true, name:"Mr. Whiskers", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise17.id)
 
-exercise18 = Exercise.create(warmup:true, name:"Bididit / Electric Company", description:"")
+exercise18 = Exercise.create(warmup:true, name:"Bididit / Electric Company", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise18.id)
 
-exercise19 = Exercise.create(warmup:true, name:"Knife Throw", description:"")
+exercise19 = Exercise.create(warmup:true, name:"Knife Throw", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise19.id)
 
-exercise20 = Exercise.create(warmup:true, name:"Zen Count", description:"")
+exercise20 = Exercise.create(warmup:true, name:"Zen Count", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise20.id)
 
-exercise21 = Exercise.create(warmup:true, name:"Bowl of Spaghetti", description:"")
+exercise21 = Exercise.create(warmup:true, name:"Bowl of Spaghetti", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise21.id)
 
-exercise22 = Exercise.create(warmup:true, name:"Die, Not Today!", description:"")
+exercise22 = Exercise.create(warmup:true, name:"Die, Not Today!", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise22.id)
 
-exercise23 = Exercise.create(warmup:true, name:"Samurai Sword Chop", description:"")
+exercise23 = Exercise.create(warmup:true, name:"Samurai Sword Chop", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise23.id)
 
-exercise24 = Exercise.create(warmup:true, name:"Sound And Motion", description:"")
+exercise24 = Exercise.create(warmup:true, name:"Sound And Motion", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise24.id)
 
-exercise25 = Exercise.create(warmup:true, name:"I’m the Queen", description:"")
+exercise25 = Exercise.create(warmup:true, name:"I’m the Queen", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise25.id)
 
-exercise26 = Exercise.create(warmup:true, name:"Crazy Eights", description:"")
+exercise26 = Exercise.create(warmup:true, name:"Crazy Eights", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise26.id)
 
-exercise27 = Exercise.create(warmup:true, name:"Snap Pass", description:"")
+exercise27 = Exercise.create(warmup:true, name:"Snap Pass", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise27.id)
 
-exercise28 = Exercise.create(warmup:true, name:"Stretch & Story", description:"")
+exercise28 = Exercise.create(warmup:true, name:"Stretch & Story", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise28.id)
 
-exercise29 = Exercise.create(warmup:true, name:"Name Thumper", description:"")
+exercise29 = Exercise.create(warmup:true, name:"Name Thumper", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise29.id)
 
-exercise30 = Exercise.create(warmup:true, name:"A to C", description:"")
+exercise30 = Exercise.create(warmup:true, name:"A to C", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise30.id)
 
-exercise31 = Exercise.create(warmup:true, name:"Boom Shaka Laka", description:"")
+exercise31 = Exercise.create(warmup:true, name:"Boom Shaka Laka", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise31.id)
 
-exercise32 = Exercise.create(warmup:true, name:"Yes, Let’s", description:"")
+exercise32 = Exercise.create(warmup:true, name:"Yes, Let’s", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise32.id)
 
-exercise33 = Exercise.create(warmup:true, name:"What’s in the box?", description:"")
+exercise33 = Exercise.create(warmup:true, name:"What’s in the box?", description:"tbd")
 tag = Tag.create(name:"warmup", exercise_id:exercise33.id)
 
 exercise34 = Exercise.create(warmup:true, name:"", description:"")
