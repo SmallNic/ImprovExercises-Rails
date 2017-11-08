@@ -175,7 +175,7 @@ km_exercise4 = Exercise.create(warmup:false, name:"Sympathetic Disagreement", de
 Tag.create(name:"Sympathetic Engagement", exercise_id:km_exercise4.id)
 Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise4.id)
 
-km_exercise5 = Exercise.create(warmup:false, name:"Oh! Non sequiturs", description:"In the middle of an ongoing scene, the coach side coaches by saying "Oh!". One of the players in the scene must immediately say, "Oh!" and then change the topic of conversation. The other player can should shift into talking about the new topic using No Gap Dialog. The new topic may eventually be connected to the previous topic of the scene, but does not have to be directly connected.")
+km_exercise5 = Exercise.create(warmup:false, name:"Oh! Non sequiturs", description:"In the middle of an ongoing scene, the coach side coaches by saying 'Oh!'. One of the players in the scene must immediately say, 'Oh!' and then change the topic of conversation. The other player can should shift into talking about the new topic using No Gap Dialog. The new topic may eventually be connected to the previous topic of the scene, but does not have to be directly connected.")
 Tag.create(name:"Surprise Yourself", exercise_id:km_exercise5.id)
 Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise5.id)
 
@@ -197,7 +197,7 @@ km_exercise10 = Exercise.create(warmup:false, name:"Rephrase and repeat", descri
 Tag.create(name:"Sympathetic Engagement", exercise_id:km_exercise10.id)
 Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise10.id)
 
-km_exercise11 = Exercise.create(warmup:false, name:"One word response", description:"Two people start an activity. Player A starts the scene with an "I statement", a statement about their own character, how they feel, what they think, what they are doing, etc. Player B responds with 1 world only, and it has to be a word that was spoken by Player A. Player B can use their one word in a variety of ways: to nudge their partner to elaborate, to ask them to clarify something, or to register an objection. Then Player A should elaborate based on the 1 word response of Player B and the way they expressed it. The scene continues with Player B only saying 1 word each time they speak. If you can't think of a word you want to repeat, then don't say anything.")
+km_exercise11 = Exercise.create(warmup:false, name:"One word response", description:"Two people start an activity. Player A starts the scene with an 'I statement', a statement about their own character, how they feel, what they think, what they are doing, etc. Player B responds with 1 world only, and it has to be a word that was spoken by Player A. Player B can use their one word in a variety of ways: to nudge their partner to elaborate, to ask them to clarify something, or to register an objection. Then Player A should elaborate based on the 1 word response of Player B and the way they expressed it. The scene continues with Player B only saying 1 word each time they speak. If you can't think of a word you want to repeat, then don't say anything.")
 Tag.create(name:"Sympathetic Engagement", exercise_id:km_exercise11.id)
 Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise11.id)
 
