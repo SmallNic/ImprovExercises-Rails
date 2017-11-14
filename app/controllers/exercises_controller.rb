@@ -15,6 +15,7 @@ class ExercisesController < ApplicationController
 
   # POST /exercises
   def create
+    binding.pry
     begin
       @exercise = Exercise.create!(exercise_params) #create with a bang throws immediate error?
       tag_params.uniq.each do |tag_object|
@@ -51,7 +52,7 @@ class ExercisesController < ApplicationController
 
   def exercise_params
     # whitelist params
-    params.require(:exercise).permit(:id, :warmup, :name, :description)
+    params.require(:exercise).permit(:id, :warmup, :name, :description, :purpose)
   end
 
   def tag_params
