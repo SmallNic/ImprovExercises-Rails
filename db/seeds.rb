@@ -221,5 +221,17 @@ km_exercise17 = Exercise.create(warmup:false, name:"No Gap Dialog", description:
 Tag.create(name:"Surprise Yourself", exercise_id:km_exercise17.id)
 Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise17.id)
 
+
+km_exercise18 = Exercise.create(warmup:false, name:"Spontaneous Story", description:"Two person scene. When sidecoached to tell a story, one of the players should launch into a spontaneous story, by beginning with 'That reminds me of a story...' The story should feel like a non-sequitur at first and the player should press forward in the story without knowing where it is going. After the story is concluded, both players should examine the story to see if they can connect it to the rest of the scene, justifying why the story was told.")
+Tag.create(name:"Surprise Yourself", exercise_id:km_exercise18.id)
+Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise18.id)
+
+
+km_exercise19 = Exercise.create(warmup:false, name:"Because of this", description:"Tell a story with about a dozen statements. Between each statement say the words, 'because of this' and make sure that each new moment of the story is caused by something that happens in the previous statement. Try not to skip steps, but tell the next direct thing that happened. Be specific in your details. Repeat several times as necessary.")
+Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise19.id)
+
+
+
+
 # km_exercise18 = Exercise.create(warmup:false, name:"", description:"")
 # Tag.create(name:"Kevin Mullaney", exercise_id:km_exercise18.id)
