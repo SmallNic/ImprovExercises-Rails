@@ -14,5 +14,8 @@ RSpec.describe Exercise, type: :model do
   it { should validate_presence_of(:name) }
   it { should validate_presence_of(:description) }
 
+  it "should fail" do
+    expect("one").to   eq("two")
+  end
 
 end
