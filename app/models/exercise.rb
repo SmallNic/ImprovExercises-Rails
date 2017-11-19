@@ -1,6 +1,7 @@
 class Exercise < ApplicationRecord
 
   #relationships
+  belongs_to :user
   has_many :alternate_names, dependent: :destroy
   has_many :tags, dependent: :destroy
   has_many :lesson_exercises
